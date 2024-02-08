@@ -21,11 +21,7 @@ Just a game I made way back
 
 `esc` - Pause / Close inventory
 
-<br>
-
 ## Stats Bar
-<br>
-<br>
 <div>
     <img src="textures/health.png"> 
     </br>
@@ -36,7 +32,6 @@ Just a game I made way back
 The purple monsters are gonna be a huge drag. Use potions to heal yourself. 
 There are light, regular and strong versions of the potion. Regenerating 25, 50 and 100 health respectively.
 
-<br>
 <br>
 <div>
     <img src="textures/strength.png">
@@ -50,7 +45,6 @@ Use weapons to increase your strength and drink regular and strong strength poti
 
 
 <br>
-<br>
 <div>
     <img src="textures/gold.png">
     <img src="textures/ruby.png">
@@ -59,9 +53,7 @@ Use weapons to increase your strength and drink regular and strong strength poti
 
 ### Gold and Rubies
 
-
 Eh, they are useless [yet], but who doesn't like to collect gold and rubies?
-
 
 ## Updates
 
