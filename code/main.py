@@ -309,7 +309,7 @@ def pause():
     paused = True
     cooled_menu_3 = 5
 
-    pause_menu_bg = pygame.image.load('textures/pause_menu.png')
+    pause_menu_bg = pygame.image.load('../textures/pause_menu.png')
     resume_button = Button(250, 70, red, blue)
     restart_button = Button(250, 70, red, blue)
     options_button = Button(250, 70, red, blue)
@@ -357,7 +357,7 @@ def backpack_menu():
     you_do = True
 
     print_text('Backpack', 675, 684, white, font_size=38)
-    backpack_menu_bg = pygame.image.load('textures/backpack_menu_bg.png')
+    backpack_menu_bg = pygame.image.load('../textures/backpack_menu_bg.png')
     backpack_menu_bg = pygame.transform.scale(backpack_menu_bg, (640, 768))
 
     def use(obj):
@@ -473,7 +473,7 @@ def backpack_menu():
 def options_menu():
     show_options_menu = True
 
-    options_menu_bg = pygame.image.load('textures/just_menu.png')
+    options_menu_bg = pygame.image.load('../textures/just_menu.png')
     back_button = Button(250, 70, red, blue)
 
     while show_options_menu:
@@ -497,7 +497,7 @@ def menu():
     show_menu = True
     local_cool = 5
 
-    menu_bg = pygame.image.load('textures/menu_bg.png')
+    menu_bg = pygame.image.load('../textures/menu_bg.png')
     start_button = Button(250, 70, red, blue)
     options_button = Button(250, 70, red, blue)
     quit_button = Button(250, 70, red, blue)
@@ -594,7 +594,7 @@ def check_roads():
 def game_over():
     show_go_menu = True
 
-    menu_go_bg = pygame.image.load('textures/game_over.png')
+    menu_go_bg = pygame.image.load('../textures/game_over.png')
     click = pygame.mouse.get_pressed()
 
     while show_go_menu:
@@ -806,7 +806,7 @@ def game_cycle():
         clock.tick(18)
 
         '''     Sets background     '''
-        bg_image = 'textures/rooms/room_' + str(coors[0]) + '_' + str(coors[1]) + '.png'
+        bg_image = '../textures/rooms/room_' + str(coors[0]) + '_' + str(coors[1]) + '.png'
         bg = pygame.image.load(bg_image)
 
         '''     Checks the possible roads     '''
@@ -1192,19 +1192,19 @@ def game_cycle():
                 if not field_been[every][one]:
 
                     if [every, one] == [0, 1]:
-                        been_mark = pygame.image.load('textures/mini-map/blue_start_location_mark.png')
+                        been_mark = pygame.image.load('../textures/mini-map/blue_start_location_mark.png')
                     elif [every, one] == [3, 3]:
-                        been_mark = pygame.image.load('textures/mini-map/blue_dragon_location_mark.png')
+                        been_mark = pygame.image.load('../textures/mini-map/blue_dragon_location_mark.png')
                     else:
-                        been_mark = pygame.image.load('textures/mini-map/blue_location_mark.png')
+                        been_mark = pygame.image.load('../textures/mini-map/blue_location_mark.png')
                     window.blit(been_mark, (880 - (32 * one), 240 - (32 * every)))
 
                     if coors == [0, 1]:
-                        mark_image = pygame.image.load('textures/mini-map/red_start_location_mark.png')
+                        mark_image = pygame.image.load('../textures/mini-map/red_start_location_mark.png')
                     elif coors == [3, 3]:
-                        mark_image = pygame.image.load('textures/mini-map/red_dragon_location_mark.png')
+                        mark_image = pygame.image.load('../textures/mini-map/red_dragon_location_mark.png')
                     else:
-                        mark_image = pygame.image.load('textures/mini-map/red_location_mark.png')
+                        mark_image = pygame.image.load('../textures/mini-map/red_location_mark.png')
                     window.blit(mark_image, (880 - (32 * coors[1]), 240 - (32 * coors[0])))
 
         if animation_count + 1 >= 18:
