@@ -9,7 +9,7 @@ Just a game I made way back
 
 ### Controls
 
-`W``A``S``D` or the arrow keys - Move
+`W` `A` `S` `D` or the arrow keys - Move
 
 `Q` - Change weapon
 
