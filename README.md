@@ -61,3 +61,16 @@ Use weapons to increase your strength and drink regular and strong strength poti
 
 
 Eh, they are useless [yet], but who doesn't like to collect gold and rubies?
+
+
+## Updates
+
+soon.
+
+<br>
+<div>
+    <img src="textures/elf/e_right_1.png">
+    <img src="textures/player/right_1.png">
+    <img src="textures/monster/m_right_1.png">
+    </br>
+</div>
