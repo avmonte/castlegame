@@ -1,4 +1,18 @@
 
+'''
+
+__        __     _      ____    _   _   ___   _   _    ____   _
+\ \      / /    / \    |  _ \  | \ | | |_ _| | \ | |  / ___| | |
+ \ \ /\ / /    / _ \   | |_) | |  \| |  | |  |  \| | | |  _  | |
+  \ V  V /    / ___ \  |  _ <  | |\  |  | |  | |\  | | |_| | |_|
+   \_/\_/    /_/   \_\ |_| \_\ |_| \_| |___| |_| \_|  \____| (_)
+
+Extremely suboptimal code below.
+Author is not responsible for any damage caused by reading this code.
+
+'''
+
+
 from list_textures import *     # <-- because of extra.objects
 from matrix import *
 from settings import *
