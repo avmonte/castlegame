@@ -7,7 +7,7 @@
 Just a game I made way back
 
 
-### Controls
+## Controls
 
 `W` `A` `S` `D` or the arrow keys - Move
 
@@ -23,7 +23,7 @@ Just a game I made way back
 
 <br>
 
-### Stats Bar
+## Stats Bar
 <br>
 <br>
 <div>
@@ -31,7 +31,7 @@ Just a game I made way back
     </br>
 </div>
 
-#### Health
+### Health
 
 The purple monsters are gonna be a huge drag. Use potions to heal yourself. 
 There are light, regular and strong versions of the potion. Regenerating 25, 50 and 100 health respectively.
@@ -44,7 +44,7 @@ There are light, regular and strong versions of the potion. Regenerating 25, 50 
 
 </div>
 
-#### Strength
+### Strength
 You thought you can kill the monsters with your bare hands. Well, aren't ya tough?
 Use weapons to increase your strength and drink regular and strong strength potions to boost it.
 
@@ -57,7 +57,7 @@ Use weapons to increase your strength and drink regular and strong strength poti
     </br>
 </div>
 
-#### Gold and Rubies
+### Gold and Rubies
 
 
 Eh, they are useless [yet], but who doesn't like to collect gold and rubies?
