@@ -24,7 +24,6 @@ Just a game I made way back
 ## Stats Bar
 <div>
     <img src="textures/health.png"> 
-    </br>
 </div>
 
 ### Health
@@ -35,8 +34,6 @@ There are light, regular and strong versions of the potion. Regenerating 25, 50 
 <br>
 <div>
     <img src="textures/strength.png">
-    </br>
-
 </div>
 
 ### Strength
@@ -48,12 +45,11 @@ Use weapons to increase your strength and drink regular and strong strength poti
 <div>
     <img src="textures/gold.png">
     <img src="textures/ruby.png">
-    </br>
 </div>
 
 ### Gold and Rubies
 
-Eh, they are useless [yet], but who doesn't like to collect gold and rubies?
+Eh, they are useless (yet), but who doesn't like to collect gold and rubies?
 
 ## Updates
 
